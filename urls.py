@@ -15,6 +15,3 @@ def afif(name):
 def somme(a, b):
     return a + b
 
-
-def exit():
-    return 8
