@@ -6,6 +6,7 @@ urlpatterns = [
     path('users/', UserList.as_view(), name='user-list'),
     path('users/<int:pk>/', UserDetails.as_view(), name='user-details'),
 ]
+<<<<<<< HEAD
 
 
 def afif(name):
@@ -15,3 +16,5 @@ def afif(name):
 def somme(a, b):
     return a + b
 
+=======
+>>>>>>> parent of 854dbba (add affiche function)
